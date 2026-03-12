@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/itdoliva/alana-tdm/refs/heads/main/schemas/tdm-data.json",
-  "title": "Esquema de Planejamento Estratégico",
+  "$id": "https://cdn.jsdelivr.net/gh/itdoliva/alana-tdm@main/schemas/tdm-data.json",
+  "title": "Alana - Teoria da Mudança",
   "type": "object",
 
   "$defs": {
@@ -17,7 +17,8 @@
         "id": { "$ref": "#/$defs/id" },
         "nome": { "type": "string" }
       },
-      "required": ["id", "nome"]
+      "required": ["id", "nome"],
+      "additionalProperties": false
     }
   },
 
@@ -49,8 +50,11 @@
             "items": { "$ref": "#/$defs/id" }
           }
         },
-        "required": ["nivel", "descricao", "estrategiaIDs", "publicoIDs"]
+        "required": ["nivel", "descricao", "estrategiaIDs", "publicoIDs"],
+        "additionalProperties": false
       }
     }
-  }
+  },
+  "required": ["estrategias", "publicos", "resultados"],
+  "additionalProperties": false
 }
