@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Esquema de Planejamento Estratégico",
+  "type": "object",
+
+  "$defs": {
+    "id": {
+      "type": "string",
+      "maxLength": 3,
+      "pattern": "^\\d+$",
+      "description": "ID numérico de até 3 dígitos"
+    },
+    "option": {
+      "type": "object",
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "nome": { "type": "string" }
+      },
+      "required": ["id", "nome"]
+    }
+  },
+
+  "properties": {
+    "estrategias": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/option" }
+    },
+    "publicos": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/option" }
+    },
+    "resultados": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "nivel": {
+            "type": "string",
+            "enum": ["direto", "intermediario", "finalistico"]
+          },
+          "descricao": { "type": "string" },
+          "estrategiaIDs": {
+            "type": "array",
+            "items": { "$ref": "#/$defs/id" }
+          },
+          "publicoIDs": {
+            "type": "array",
+            "items": { "$ref": "#/$defs/id" }
+          }
+        },
+        "required": ["nivel", "descricao", "estrategiaIDs", "publicoIDs"]
+      }
+    }
+  }
+}
