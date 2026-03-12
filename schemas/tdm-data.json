@@ -1,5 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/itdoliva/alana-tdm/refs/heads/main/schemas/tdm-data.json",
   "title": "Esquema de Planejamento Estratégico",
   "type": "object",
 
