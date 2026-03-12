@@ -1,0 +1,197 @@
+{
+  "$schema": "../../schemas/tdm-data.json",
+  "niveis": [
+    { "id": "direto", "nome": "Direto" },
+    { "id": "intermediario", "nome": "Intermediário" },
+    { "id": "finalistico", "nome": "Finalístico" }
+  ],
+  "estrategias": [
+    { "id": "E01", "nome": "Articulação em redes e coalizões" },
+    { "id": "E02", "nome": "Comunicação de impacto e engajamento" },
+    { "id": "E03", "nome": "Criação de tecnologias sociais" },
+    { "id": "E04", "nome": "Educação e formação" },
+    { "id": "E05", "nome": "Incidência político-institucional" },
+    { "id": "E06", "nome": "Inspiração" },
+    { "id": "E07", "nome": "Litígio estratégico" },
+    { "id": "E08", "nome": "Produção de conhecimento" }
+  ],
+  "publicos": [
+    { "id": "P01", "nome": "Autodefensores" },
+    { "id": "P02", "nome": "Comunidade escolar" },
+    { "id": "P03", "nome": "Crianças e adolescentes" },
+    { "id": "P04", "nome": "Educadores" },
+    { "id": "P05", "nome": "Famílias e responsáveis legais" },
+    { "id": "P06", "nome": "Formadores de opinião" },
+    { "id": "P07", "nome": "Grande mídia" },
+    { "id": "P08", "nome": "Iniciativa privada" },
+    { "id": "P09", "nome": "Operadores do Direito" },
+    { "id": "P10", "nome": "Organismos internacionais" },
+    { "id": "P11", "nome": "Pesquisadores e acadêmicos" },
+    { "id": "P12", "nome": "Representantes do Executivo e Legislativo" },
+    { "id": "P13", "nome": "Representantes do Judiciário" },
+    { "id": "P14", "nome": "Representantes dos poderes públicos" },
+    { "id": "P15", "nome": "Sociedade civil organizada" },
+    { "id": "P16", "nome": "Sociedade em geral" }
+  ],
+  "resultados": [
+    {
+      "id_nivel": "direto",
+      "descricao": "Sociedade sensibilizada e com conhecimento consolidado sobre ambiente digital seguro, acesso à Natureza, equidade e inclusão",
+      "id_estrategias": ["E04", "E08", "E02", "E06", "E01", "E07"],
+      "id_publicos": ["P15", "P05", "P03", "P04", "P06", "P14"]
+    },
+    {
+      "id_nivel": "direto",
+      "descricao": "Reconhecimento do Instituto Alana nos processos legislativos e no sistema ONU",
+      "id_estrategias": ["E05", "E01", "E08", "E02"],
+      "id_publicos": ["P14", "P10", "P09", "P11"]
+    },
+    {
+      "id_nivel": "direto",
+      "descricao": "Participação do Instituto Alana em ações judiciais e/ou administrativas estratégicas",
+      "id_estrategias": ["E07", "E08", "E05", "E02"],
+      "id_publicos": ["P09", "P13", "P15", "P06"]
+    },
+    {
+      "id_nivel": "intermediario",
+      "descricao": "Inspiração e conhecimento disseminados pela grande mídia e redes sociais",
+      "id_estrategias": ["E02", "E06", "E08", "E03"],
+      "id_publicos": ["P06", "P07", "P16"]
+    },
+    {
+      "id_nivel": "intermediario",
+      "descricao": "Famílias e responsáveis legais atuando ativamente para garantir direitos e promover o desenvolvimento",
+      "id_estrategias": ["E04", "E02", "E08", "E07"],
+      "id_publicos": ["P05"]
+    },
+    {
+      "id_nivel": "intermediario",
+      "descricao": "Agentes públicos, autodefensores, redes educacionais e comunidade escolar atuando ativamente",
+      "id_estrategias": ["E05", "E01", "E04", "E02"],
+      "id_publicos": ["P12", "P04", "P01", "P02"]
+    },
+    {
+      "id_nivel": "intermediario",
+      "descricao": "Sociedade civil organizada e organismos internacionais fortalecidos para pressionar agentes públicos e iniciativa privada",
+      "id_estrategias": ["E01", "E08", "E02"],
+      "id_publicos": ["P15", "P10", "P06"]
+    },
+    {
+      "id_nivel": "intermediario",
+      "descricao": "Crianças e adolescentes participando de ações para influenciar agentes públicos e privados",
+      "id_estrategias": ["E03", "E04", "E02"],
+      "id_publicos": ["P03", "P05", "P04"]
+    },
+    {
+      "id_nivel": "intermediario",
+      "descricao": "Ações judiciais e administrativas com decisões favoráveis",
+      "id_estrategias": ["E07", "E02"],
+      "id_publicos": ["P09", "P13", "P06"]
+    },
+    {
+      "id_nivel": "finalistico",
+      "descricao": "Sociedade inspirada para um ambiente digital de qualidade, seguro e promotor de direitos",
+      "id_estrategias": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08"
+      ],
+      "id_publicos": ["P16"]
+    },
+    {
+      "id_nivel": "finalistico",
+      "descricao": "Sociedade inspirada para a preservação da Natureza e consciente da importância do acesso",
+      "id_estrategias": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08"
+      ],
+      "id_publicos": ["P16"]
+    },
+    {
+      "id_nivel": "finalistico",
+      "descricao": "Legislação e regulamentações nacionais e internacionais adequadas",
+      "id_estrategias": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08"
+      ],
+      "id_publicos": ["P14", "P10", "P15", "P11", "P06", "P09", "P04", "P01"]
+    },
+    {
+      "id_nivel": "finalistico",
+      "descricao": "Políticas públicas adequadamente implementadas",
+      "id_estrategias": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08"
+      ],
+      "id_publicos": ["P14", "P15", "P11", "P06", "P09", "P04", "P01"]
+    },
+    {
+      "id_nivel": "finalistico",
+      "descricao": "Participação de crianças e adolescentes valorizada pela sociedade",
+      "id_estrategias": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08"
+      ],
+      "id_publicos": ["P03", "P16", "P04", "P05"]
+    },
+    {
+      "id_nivel": "finalistico",
+      "descricao": "Empresas com práticas garantidoras dos direitos de crianças e adolescentes",
+      "id_estrategias": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08"
+      ],
+      "id_publicos": ["P08", "P06"]
+    },
+    {
+      "id_nivel": "finalistico",
+      "descricao": "Jurisprudência consolidada de forma positiva em litigância estratégica",
+      "id_estrategias": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08"
+      ],
+      "id_publicos": ["P09", "P06"]
+    }
+  ]
+}

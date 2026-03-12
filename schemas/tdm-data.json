@@ -4,25 +4,11 @@
   "title": "Alana - Teoria da Mudança",
   "type": "object",
 
-  "$defs": {
-    "id": {
-      "type": "string",
-      "maxLength": 3,
-      "pattern": "^\\d+$",
-      "description": "ID numérico de até 3 dígitos"
-    },
-    "option": {
-      "type": "object",
-      "properties": {
-        "id": { "$ref": "#/$defs/id" },
-        "nome": { "type": "string" }
-      },
-      "required": ["id", "nome"],
-      "additionalProperties": false
-    }
-  },
-
   "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Permite que o arquivo de dados aponte para este schema."
+    },
     "estrategias": {
       "type": "array",
       "items": { "$ref": "#/$defs/option" }
@@ -31,30 +17,57 @@
       "type": "array",
       "items": { "$ref": "#/$defs/option" }
     },
+    "niveis": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "descricao": { "type": "string" }
+        }
+      }
+    },
     "resultados": {
       "type": "array",
       "items": {
         "type": "object",
         "properties": {
-          "nivel": {
-            "type": "string",
-            "enum": ["direto", "intermediario", "finalistico"]
+          "id_nivel": {
+            "type": "string"
           },
           "descricao": { "type": "string" },
-          "estrategiaIDs": {
+          "id_estrategias": {
             "type": "array",
-            "items": { "$ref": "#/$defs/id" }
+            "items": { "$ref": "#/$defs/option_id" }
           },
-          "publicoIDs": {
+          "id_publicos": {
             "type": "array",
-            "items": { "$ref": "#/$defs/id" }
+            "items": { "$ref": "#/$defs/option_id" }
           }
         },
-        "required": ["nivel", "descricao", "estrategiaIDs", "publicoIDs"],
+        "required": ["id_nivel", "descricao", "id_estrategias", "id_publicos"],
         "additionalProperties": false
       }
     }
   },
-  "required": ["estrategias", "publicos", "resultados"],
-  "additionalProperties": false
+  "required": ["niveis", "estrategias", "publicos", "resultados"],
+  "additionalProperties": false,
+
+  "$defs": {
+    "option_id": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 3,
+      "pattern": "^\\w\\d{2}$"
+    },
+    "option": {
+      "type": "object",
+      "properties": {
+        "id": { "$ref": "#/$defs/option_id" },
+        "nome": { "type": "string" }
+      },
+      "required": ["id", "nome"],
+      "additionalProperties": false
+    }
+  }
 }
