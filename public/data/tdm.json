@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schemas/tdm-data.json",
+  "$schema": "../../schemas/v1/data.json",
   "niveis": [
     { "id": "direto", "nome": "Direto" },
     { "id": "intermediario", "nome": "Intermediário" },

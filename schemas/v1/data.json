@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://cdn.jsdelivr.net/gh/itdoliva/alana-tdm@main/schemas/tdm-data.json",
+  "$id": "https://cdn.jsdelivr.net/gh/itdoliva/alana-tdm@main/schemas/v1/data.json",
   "title": "Alana - Teoria da Mudança",
   "type": "object",
 
