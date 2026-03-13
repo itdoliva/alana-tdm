@@ -35,62 +35,72 @@
   ],
   "resultados": [
     {
+      "id": "RD01",
       "id_nivel": "direto",
-      "descricao": "Sociedade sensibilizada e com conhecimento consolidado sobre ambiente digital seguro, acesso à Natureza, equidade e inclusão",
+      "descricao": "Sociedade sensibilizada e com conhecimento consolidado sobre a importância, para todas as crianças e adolescentes, de: um ambiente digital de qualidade, seguro e promotor de direitos; a garantia de acesso à Natureza e a importância de sua preservação; a equidade social e a inclusão.",
       "id_estrategias": ["E04", "E08", "E02", "E06", "E01", "E07"],
       "id_publicos": ["P15", "P05", "P03", "P04", "P06", "P14"]
     },
     {
+      "id": "RD02",
       "id_nivel": "direto",
-      "descricao": "Reconhecimento do Instituto Alana nos processos legislativos e no sistema ONU",
+      "descricao": "Reconhecimento do Instituto Alana nos processos legislativos e no sistema ONU ligados a todas as crianças e adolescentes.",
       "id_estrategias": ["E05", "E01", "E08", "E02"],
       "id_publicos": ["P14", "P10", "P09", "P11"]
     },
     {
+      "id": "RD03",
       "id_nivel": "direto",
-      "descricao": "Participação do Instituto Alana em ações judiciais e/ou administrativas estratégicas",
+      "descricao": "Participação do Instituto Alana em ações judiciais e/ou administrativas estratégicas para todas as crianças e adolescentes.",
       "id_estrategias": ["E07", "E08", "E05", "E02"],
       "id_publicos": ["P09", "P13", "P15", "P06"]
     },
     {
+      "id": "RI01",
       "id_nivel": "intermediario",
-      "descricao": "Inspiração e conhecimento disseminados pela grande mídia e redes sociais",
+      "descricao": "Inspiração e conhecimento disseminados pela grande mídia e nas redes sociais.",
       "id_estrategias": ["E02", "E06", "E08", "E03"],
       "id_publicos": ["P06", "P07", "P16"]
     },
     {
+      "id": "RI02",
       "id_nivel": "intermediario",
-      "descricao": "Famílias e responsáveis legais atuando ativamente para garantir direitos e promover o desenvolvimento",
+      "descricao": "Famílias e responsáveis legais atuando ativamente para garantir os direitos de todas as crianças e adolescentes e para promover o seu desenvolvimento.",
       "id_estrategias": ["E04", "E02", "E08", "E07"],
       "id_publicos": ["P05"]
     },
     {
+      "id": "RI03",
       "id_nivel": "intermediario",
-      "descricao": "Agentes públicos, autodefensores, redes educacionais e comunidade escolar atuando ativamente",
+      "descricao": "Representantes dos poderes executivo e legislativo, autodefensores, redes educacionais e comunidade escolar atuando ativamente para assegurar a todas as crianças e adolescentes: um ambiente digital de qualidade, seguro e promotor de direitos; a preservação da Natureza e a garantia de acesso a ela; a equidade social e a inclusão; o seu direito de participação.",
       "id_estrategias": ["E05", "E01", "E04", "E02"],
       "id_publicos": ["P12", "P04", "P01", "P02"]
     },
     {
+      "id": "RI04",
       "id_nivel": "intermediario",
-      "descricao": "Sociedade civil organizada e organismos internacionais fortalecidos para pressionar agentes públicos e iniciativa privada",
+      "descricao": "Sociedade civil organizada e organizações internacionais fortalecidas para pressionar — de forma isolada ou conjunta — os agentes públicos e a iniciativa privada por políticas de qualidade que garantam os direitos de todas as crianças e adolescentes.",
       "id_estrategias": ["E01", "E08", "E02"],
       "id_publicos": ["P15", "P10", "P06"]
     },
     {
+      "id": "RI05",
       "id_nivel": "intermediario",
-      "descricao": "Crianças e adolescentes participando de ações para influenciar agentes públicos e privados",
+      "descricao": "Todas as crianças e adolescentes participando de ações para influenciar agentes públicos e privados a garantirem os seus direitos.",
       "id_estrategias": ["E03", "E04", "E02"],
       "id_publicos": ["P03", "P05", "P04"]
     },
     {
+      "id": "RI06",
       "id_nivel": "intermediario",
-      "descricao": "Ações judiciais e administrativas com decisões favoráveis",
+      "descricao": "Ações judiciais e administrativas com decisões favoráveis à garantia dos direitos de todas as crianças e adolescentes.",
       "id_estrategias": ["E07", "E02"],
       "id_publicos": ["P09", "P13", "P06"]
     },
     {
+      "id": "RF01",
       "id_nivel": "finalistico",
-      "descricao": "Sociedade inspirada para um ambiente digital de qualidade, seguro e promotor de direitos",
+      "descricao": "Sociedade* inspirada para um ambiente digital de qualidade, seguro e promotor de direitos para todas as crianças e adolescentes e ciente da importância de garanti-lo.",
       "id_estrategias": [
         "E01",
         "E02",
@@ -104,8 +114,9 @@
       "id_publicos": ["P16"]
     },
     {
+      "id": "RF02",
       "id_nivel": "finalistico",
-      "descricao": "Sociedade inspirada para a preservação da Natureza e consciente da importância do acesso",
+      "descricao": "Sociedade* inspirada para a preservação da Natureza e ciente da importância de que todas as crianças e adolescentes tenham seu acesso a ela garantido.",
       "id_estrategias": [
         "E01",
         "E02",
@@ -119,8 +130,9 @@
       "id_publicos": ["P16"]
     },
     {
+      "id": "RF03",
       "id_nivel": "finalistico",
-      "descricao": "Legislação e regulamentações nacionais e internacionais adequadas",
+      "descricao": "Legislação e regulamentações nacionais e internacionais adequadas, considerando: todas as crianças e adolescentes; a importância do ambiente digital de qualidade, seguro e promotor de direitos; a garantia de acesso à Natureza e a importância de sua preservação; a equidade social e a inclusão.",
       "id_estrategias": [
         "E01",
         "E02",
@@ -134,8 +146,9 @@
       "id_publicos": ["P14", "P10", "P15", "P11", "P06", "P09", "P04", "P01"]
     },
     {
+      "id": "RF04",
       "id_nivel": "finalistico",
-      "descricao": "Políticas públicas adequadamente implementadas",
+      "descricao": "Políticas públicas adequadamente implementadas, considerando: todas as crianças e adolescentes; a importância do ambiente digital de qualidade, seguro e promotor de direitos; a preservação da Natureza e a garantia de acesso a ela; a equidade social e a inclusão.",
       "id_estrategias": [
         "E01",
         "E02",
@@ -149,8 +162,9 @@
       "id_publicos": ["P14", "P15", "P11", "P06", "P09", "P04", "P01"]
     },
     {
+      "id": "RF05",
       "id_nivel": "finalistico",
-      "descricao": "Participação de crianças e adolescentes valorizada pela sociedade",
+      "descricao": "Participação de crianças e adolescentes valorizada pela sociedade.",
       "id_estrategias": [
         "E01",
         "E02",
@@ -164,8 +178,9 @@
       "id_publicos": ["P03", "P16", "P04", "P05"]
     },
     {
+      "id": "RF06",
       "id_nivel": "finalistico",
-      "descricao": "Empresas com práticas garantidoras dos direitos de crianças e adolescentes",
+      "descricao": "Empresas com práticas garantidoras dos direitos das crianças e adolescentes.",
       "id_estrategias": [
         "E01",
         "E02",
@@ -179,8 +194,9 @@
       "id_publicos": ["P08", "P06"]
     },
     {
+      "id": "RF07",
       "id_nivel": "finalistico",
-      "descricao": "Jurisprudência consolidada de forma positiva em litigância estratégica",
+      "descricao": "Jurisprudência consolidada de forma positiva nos temas de litigância estratégica.",
       "id_estrategias": [
         "E01",
         "E02",
@@ -193,5 +209,55 @@
       ],
       "id_publicos": ["P09", "P06"]
     }
+  ],
+  "conexoes": [
+    { "origem": "RD01", "destino": "RI01" },
+    { "origem": "RD01", "destino": "RI02" },
+    { "origem": "RD01", "destino": "RI03" },
+    { "origem": "RD01", "destino": "RI04" },
+    { "origem": "RD01", "destino": "RI05" },
+
+    { "origem": "RD02", "destino": "RI03" },
+    { "origem": "RD02", "destino": "RI04" },
+    { "origem": "RD02", "destino": "RI05" },
+    { "origem": "RD02", "destino": "RI06" },
+
+    { "origem": "RD03", "destino": "RI03" },
+    { "origem": "RD03", "destino": "RI05" },
+    { "origem": "RD03", "destino": "RI06" },
+
+    { "origem": "RI01", "destino": "RF01" },
+    { "origem": "RI01", "destino": "RF02" },
+
+    { "origem": "RI02", "destino": "RF01" },
+    { "origem": "RI02", "destino": "RF02" },
+
+    { "origem": "RI03", "destino": "RF01" },
+    { "origem": "RI03", "destino": "RF02" },
+    { "origem": "RI03", "destino": "RF03" },
+    { "origem": "RI03", "destino": "RF04" },
+    { "origem": "RI03", "destino": "RF05" },
+    { "origem": "RI03", "destino": "RF06" },
+    { "origem": "RI03", "destino": "RF07" },
+
+    { "origem": "RI04", "destino": "RF01" },
+    { "origem": "RI04", "destino": "RF02" },
+    { "origem": "RI04", "destino": "RF03" },
+    { "origem": "RI04", "destino": "RF04" },
+    { "origem": "RI04", "destino": "RF06" },
+
+    { "origem": "RI05", "destino": "RF01" },
+    { "origem": "RI05", "destino": "RF02" },
+    { "origem": "RI05", "destino": "RF03" },
+    { "origem": "RI05", "destino": "RF04" },
+    { "origem": "RI05", "destino": "RF05" },
+    { "origem": "RI05", "destino": "RF06" },
+    { "origem": "RI05", "destino": "RF07" },
+
+    { "origem": "RI06", "destino": "RF03" },
+    { "origem": "RI06", "destino": "RF04" },
+    { "origem": "RI06", "destino": "RF05" },
+    { "origem": "RI06", "destino": "RF06" },
+    { "origem": "RI06", "destino": "RF07" }
   ]
 }

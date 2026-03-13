@@ -32,6 +32,7 @@
       "items": {
         "type": "object",
         "properties": {
+          "id": { "$ref": "#/$defs/result_id" },
           "id_nivel": {
             "type": "string"
           },
@@ -45,15 +46,39 @@
             "items": { "$ref": "#/$defs/option_id" }
           }
         },
-        "required": ["id_nivel", "descricao", "id_estrategias", "id_publicos"],
+        "required": [
+          "id",
+          "id_nivel",
+          "descricao",
+          "id_estrategias",
+          "id_publicos"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "conexoes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "origem": { "$ref": "#/$defs/result_id" },
+          "destino": { "$ref": "#/$defs/result_id" }
+        },
+        "required": ["origem", "destino"],
         "additionalProperties": false
       }
     }
   },
-  "required": ["niveis", "estrategias", "publicos", "resultados"],
+  "required": ["niveis", "estrategias", "publicos", "resultados", "conexoes"],
   "additionalProperties": false,
 
   "$defs": {
+    "result_id": {
+      "type": "string",
+      "minLength": 4,
+      "maxLength": 4,
+      "pattern": "^(RD|RI|RF)\\d{2}$"
+    },
     "option_id": {
       "type": "string",
       "minLength": 3,
